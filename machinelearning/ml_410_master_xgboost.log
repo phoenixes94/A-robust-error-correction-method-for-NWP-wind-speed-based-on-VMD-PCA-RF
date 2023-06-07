@@ -1,0 +1,224 @@
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+/csg/shzhou/anaconda3/envs/pytorch/lib/python3.8/site-packages/xgboost/compat.py:36: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import MultiIndex, Int64Index
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:65: FutureWarning: Indexing a DataFrame with a datetimelike index using a single string to slice the rows, like `frame[string]`, is deprecated and will be removed in a future version. Use `frame.loc[string]` instead.
+  ds_train=ds['2022-02']
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:726: FutureWarning: Indexing a DataFrame with a datetimelike index using a single string to slice the rows, like `frame[string]`, is deprecated and will be removed in a future version. Use `frame.loc[string]` instead.
+  ds_test0=ds_test['2021-12']
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:727: FutureWarning: Indexing a DataFrame with a datetimelike index using a single string to slice the rows, like `frame[string]`, is deprecated and will be removed in a future version. Use `frame.loc[string]` instead.
+  ds_test1=ds_test['2022-01']
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:728: FutureWarning: Indexing a DataFrame with a datetimelike index using a single string to slice the rows, like `frame[string]`, is deprecated and will be removed in a future version. Use `frame.loc[string]` instead.
+  ds_DS0=ds_DS['2021-12']
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:729: FutureWarning: Indexing a DataFrame with a datetimelike index using a single string to slice the rows, like `frame[string]`, is deprecated and will be removed in a future version. Use `frame.loc[string]` instead.
+  ds_DS1=ds_DS['2022-01']
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:509: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  A = np.float(op.curve_fit(f_1, Ytrain1, Ytrain_predict)[0])
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:543: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  A = np.float(op.curve_fit(f_1, valid1, valid_predict)[0])
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:580: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  A = np.float(op.curve_fit(f_1, Ytest0, Ytest_predict0)[0])
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:615: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  A = np.float(op.curve_fit(f_1, YDS0, YDS_predict0)[0])
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:650: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  A = np.float(op.curve_fit(f_1, Ytest1, Ytest_predict1)[0])
+/csg/shzhou/datacomparison_sum10days/master_paper/machinelearning/ml_410_master_xgboost.py:685: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  A = np.float(op.curve_fit(f_1, YDS1, YDS_predict1)[0])
+findfont: Font family ['Times New Roman'] not found. Falling back to DejaVu Sans.
+        Unnamed: 0                 time  ...        lat               time.1
+79540        79540  2021-09-27 10:00:00  ...  25.150000  2021-09-27 10:00:00
+79545        79545  2021-09-27 10:00:00  ...  24.566667  2021-09-27 10:00:00
+79555        79555  2021-09-27 10:00:00  ...  24.450000  2021-09-27 10:00:00
+79556        79556  2021-09-27 10:00:00  ...  24.583333  2021-09-27 10:00:00
+79558        79558  2021-09-27 10:00:00  ...  24.150000  2021-09-27 10:00:00
+...            ...                  ...  ...        ...                  ...
+434986      434986  2021-11-04 13:00:00  ...  23.033333  2021-11-04 13:00:00
+434991      434991  2021-11-04 13:00:00  ...  23.700000  2021-11-04 13:00:00
+434997      434997  2021-11-04 13:00:00  ...  23.700000  2021-11-04 13:00:00
+434998      434998  2021-11-04 13:00:00  ...  23.383333  2021-11-04 13:00:00
+435002      435002  2021-11-04 13:00:00  ...  22.500000  2021-11-04 13:00:00
+
+[345 rows x 26 columns]
+Unnamed: 0    True
+time          True
+站点号           True
+地名            True
+省份            True
+纬度            True
+经度            True
+海拔            True
+降水            True
+气压            True
+湿度            True
+温度            True
+风速            True
+PRE_pre       True
+PRS_pre       True
+RHU_pre       True
+TMP_pre       True
+WIN_pre       True
+D2_pre        True
+DIR10_pre     True
+Ice_pre       True
+U10_pre       True
+V10_pre       True
+lon           True
+lat           True
+time.1        True
+dtype: bool
+Unnamed: 0    False
+time          False
+站点号           False
+地名            False
+省份            False
+纬度            False
+经度            False
+海拔            False
+降水            False
+气压            False
+湿度            False
+温度            False
+风速            False
+PRE_pre       False
+PRS_pre       False
+RHU_pre       False
+TMP_pre       False
+WIN_pre       False
+D2_pre        False
+DIR10_pre     False
+Ice_pre       False
+U10_pre       False
+V10_pre       False
+lon           False
+lat           False
+time.1        False
+dtype: bool
+                        hgt  WIN_obs  PRE_pre  ...  V10_pre         lon        lat
+time                                           ...                                
+2022-02-01 00:00:00   102.6      0.9    0.489  ...   -3.301  113.350000  25.150000
+2022-02-01 00:00:00    98.3      0.3    0.373  ...   -1.549  113.733333  25.100000
+2022-02-01 00:00:00   134.7      0.8    0.706  ...   -1.389  114.316667  25.133333
+2022-02-01 00:00:00   174.4      1.0    1.162  ...   -0.353  112.283333  24.733333
+2022-02-01 00:00:00   131.5      0.6    0.977  ...   -1.605  112.366667  24.800000
+...                     ...      ...      ...  ...      ...         ...        ...
+2022-02-28 23:00:00  1271.6      1.4    0.000  ...    0.294  104.250000  23.383333
+2022-02-28 23:00:00  1332.9      1.2    0.000  ...   -0.375  104.416667  23.033333
+2022-02-28 23:00:00  1093.4      0.9    0.000  ...    0.558  104.700000  23.133333
+2022-02-28 23:00:00  1249.6      0.7    0.000  ...   -0.309  105.066667  24.066667
+2022-02-28 23:00:00   685.8      1.3    0.000  ...   -1.106  105.633333  23.650000
+
+[275520 rows x 13 columns]
+hgt          True
+PRE_pre      True
+PRS_pre      True
+RHU_pre      True
+TMP_pre      True
+WIN_pre      True
+D2_pre       True
+DIR10_pre    True
+U10_pre      True
+V10_pre      True
+lon          True
+lat          True
+dtype: bool
+Empty DataFrame
+Columns: [hgt, PRE_pre, PRS_pre, RHU_pre, TMP_pre, WIN_pre, D2_pre, DIR10_pre, U10_pre, V10_pre, lon, lat]
+Index: []
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
