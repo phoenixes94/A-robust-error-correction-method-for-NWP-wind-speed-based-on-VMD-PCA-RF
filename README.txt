@@ -1,3 +1,4 @@
+A hybrid method for numerical weather prediction wind speed based on Bayesian optimization (version 1.2.0) and error correction: First release of my code
 1、pip3 install -r /ws_correct_ML/requirements.txt
 ####2、Run a scheduled task in the background to start the prediction and plotting tasks(crontab -e)
 ####2.1、Process path 1
